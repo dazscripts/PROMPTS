@@ -1,0 +1,474 @@
+Please make these roblox instances tween always away from your character with all the effects facing the correct way. search the web if needed.
+
+--// Instances
+
+local black_slash = Instance.new("Part")
+black_slash.Anchored = true
+black_slash.BottomSurface = Enum.SurfaceType.Smooth
+black_slash.BrickColor = BrickColor.new(0.06666667014360428, 0.06666667014360428, 0.06666667014360428)
+black_slash.CFrame = CFrame.fromMatrix(Vector3.new(-499.21063232421875, 210.93719482421875, -158.60311889648438), Vector3.new(0, 4.158050009122988e-28, -1), Vector3.new(-3.071952872606159e-28, 1, -4.794272299566561e-28), Vector3.new(1, 1.3296720484406584e-27, 0))
+black_slash.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
+black_slash.Massless = true
+black_slash.Material = Enum.Material.Sand
+black_slash.Orientation = Vector3.new(0, 90, 0)
+black_slash.Reflectance = 1
+black_slash.Rotation = Vector3.new(0, 90, 0)
+black_slash.Size = Vector3.new(14.619661331176758, 3.9808311462402344, 20.11367416381836)
+black_slash.TopSurface = Enum.SurfaceType.Smooth
+black_slash.size = Vector3.new(14.619661331176758, 3.9808311462402344, 20.11367416381836)
+black_slash.Name = "BlackSlash"
+black_slash.Parent = workspace
+
+local mesh = Instance.new("SpecialMesh")
+mesh.MeshType = Enum.MeshType.FileMesh
+mesh.MeshId = "rbxassetid://9974519265"
+mesh.Scale = Vector3.new(8.354574203491211, 15.923324584960938, 11.493847846984863)
+mesh.Parent = black_slash
+
+local particle_holder = Instance.new("Part")
+particle_holder.BottomSurface = Enum.SurfaceType.Smooth
+particle_holder.CFrame = CFrame.fromMatrix(Vector3.new(-509.4339294433594, 210.8990020751953, -161.84967041015625), Vector3.new(-0.9999995827674866, -1.3296714706616751e-27, -0), Vector3.new(-3.071952872606159e-28, 1, -4.794272299566561e-28), Vector3.new(0, 4.158048083193043e-28, -0.9999995827674866))
+particle_holder.Massless = true
+particle_holder.Orientation = Vector3.new(0, 180, 0)
+particle_holder.Rotation = Vector3.new(-180, 0, 180)
+particle_holder.Size = Vector3.new(3.72102952003479, 0.22955051064491272, 0.5985665917396545)
+particle_holder.TopSurface = Enum.SurfaceType.Smooth
+particle_holder.size = Vector3.new(3.72102952003479, 0.22955051064491272, 0.5985665917396545)
+particle_holder.Name = "ParticleHolder"
+particle_holder.Parent = black_slash
+
+local a1 = Instance.new("Attachment")
+a1.Axis = Vector3.new(-2.172195958222358e-28, 1, 0)
+a1.CFrame = CFrame.fromMatrix(Vector3.new(0, 0, -33.5087890625), Vector3.new(-2.172195958222358e-28, 1, 0), Vector3.new(-0.7071067690849304, -1.5359745103731352e-28, 0.70710688829422), Vector3.new(0.70710688829422, 1.5359747511143783e-28, 0.7071067690849304))
+a1.Orientation = Vector3.new(-8.800486036326942e-27, 45.000003814697266, 90)
+a1.Position = Vector3.new(0, 0, -33.5087890625)
+a1.SecondaryAxis = Vector3.new(-0.7071067690849304, -1.5359745103731352e-28, 0.70710688829422)
+a1.Visible = false
+a1.WorldAxis = Vector3.new(-8.997578773487732e-29, 1, -4.794272299566561e-28)
+a1.WorldCFrame = CFrame.fromMatrix(Vector3.new(-509.4339294433594, 210.8990020751953, -128.3408966064453), Vector3.new(-8.997578773487732e-29, 1, -4.794272299566561e-28), Vector3.new(0.7071064710617065, 1.0806407362431363e-27, -0.7071065902709961), Vector3.new(-0.7071065902709961, -4.926039611536675e-28, -0.7071064710617065))
+a1.WorldOrientation = Vector3.new(2.3068915214874663e-26, -135, 90)
+a1.WorldPosition = Vector3.new(-509.4339294433594, 210.8990020751953, -128.3408966064453)
+a1.WorldSecondaryAxis = Vector3.new(0.7071064710617065, 1.0806407362431363e-27, -0.7071065902709961)
+a1.Name = "A1"
+a1.Parent = particle_holder
+
+local moon_veil_slash = Instance.new("Motor6D")
+moon_veil_slash.C0 = CFrame.fromMatrix(Vector3.new(-10.223296165466309, 0.03819754347205162, -3.2465481758117676), Vector3.new(0, 0, 0.9999995827674866), Vector3.new(0, 1, 0), Vector3.new(-0.9999995827674866, 0, 0))
+moon_veil_slash.Part0 = particle_holder
+moon_veil_slash.Part1 = black_slash
+moon_veil_slash.Name = "MoonVeil Slash"
+moon_veil_slash.Parent = particle_holder
+
+local particle_holder1 = Instance.new("Part")
+particle_holder1.BottomSurface = Enum.SurfaceType.Smooth
+particle_holder1.CFrame = CFrame.fromMatrix(Vector3.new(-506.955810546875, 210.8990020751953, -164.22105407714844), Vector3.new(-1, -1.3296720484406584e-27, -0), Vector3.new(-3.071952872606159e-28, 1, -4.794272299566561e-28), Vector3.new(0, 4.158050009122988e-28, -1))
+particle_holder1.Massless = true
+particle_holder1.Orientation = Vector3.new(0, 180, 0)
+particle_holder1.Rotation = Vector3.new(-180, 0, 180)
+particle_holder1.Size = Vector3.new(3.72102952003479, 0.22955051064491272, 0.8614490628242493)
+particle_holder1.TopSurface = Enum.SurfaceType.Smooth
+particle_holder1.size = Vector3.new(3.72102952003479, 0.22955051064491272, 0.8614490628242493)
+particle_holder1.Name = "ParticleHolder1"
+particle_holder1.Parent = black_slash
+
+local a1_2 = Instance.new("Attachment")
+a1_2.Axis = Vector3.new(2.1721978841523026e-28, -1, -0)
+a1_2.CFrame = CFrame.fromMatrix(Vector3.new(-1.583160400390625, 0, -28.7412109375), Vector3.new(2.1721978841523026e-28, -1, -0), Vector3.new(1, 2.1721978841523026e-28, 0), Vector3.new(0, -0, 1))
+a1_2.Orientation = Vector3.new(0, 0, -90)
+a1_2.Position = Vector3.new(-1.583160400390625, 0, -28.7412109375)
+a1_2.SecondaryAxis = Vector3.new(1, 2.1721978841523026e-28, 0)
+a1_2.Visible = false
+a1_2.WorldAxis = Vector3.new(8.997549884538567e-29, -1, 4.794272299566561e-28)
+a1_2.WorldCFrame = CFrame.fromMatrix(Vector3.new(-505.3726501464844, 210.8990020751953, -135.47984313964844), Vector3.new(8.997549884538567e-29, -1, 4.794272299566561e-28), Vector3.new(-1, -1.1124522840995525e-27, -0), Vector3.new(0, 4.158050009122988e-28, -1))
+a1_2.WorldOrientation = Vector3.new(2.746915669229418e-26, 180, -90)
+a1_2.WorldPosition = Vector3.new(-505.3726501464844, 210.8990020751953, -135.47984313964844)
+a1_2.WorldSecondaryAxis = Vector3.new(-1, -1.1124522840995525e-27, -0)
+a1_2.Name = "A1"
+a1_2.Parent = particle_holder1
+
+local moon_veil_slash_2 = Instance.new("Motor6D")
+moon_veil_slash_2.C0 = CFrame.fromMatrix(Vector3.new(-7.745182037353516, 0.03819754347205162, -5.617941856384277), Vector3.new(0, 0, 1), Vector3.new(0, 1, 0), Vector3.new(-1, 0, 0))
+moon_veil_slash_2.Part0 = particle_holder1
+moon_veil_slash_2.Part1 = black_slash
+moon_veil_slash_2.Name = "MoonVeil Slash"
+moon_veil_slash_2.Parent = particle_holder1
+
+local particle_holder2 = Instance.new("Part")
+particle_holder2.BottomSurface = Enum.SurfaceType.Smooth
+particle_holder2.CFrame = CFrame.fromMatrix(Vector3.new(-503.7559814453125, 210.8990020751953, -165.7176055908203), Vector3.new(-1, -1.3296720484406584e-27, -0), Vector3.new(-3.071952872606159e-28, 1, -4.794272299566561e-28), Vector3.new(0, 4.158050009122988e-28, -1))
+particle_holder2.Massless = true
+particle_holder2.Orientation = Vector3.new(0, 180, 0)
+particle_holder2.Rotation = Vector3.new(-180, 0, 180)
+particle_holder2.Size = Vector3.new(3.72102952003479, 0.22955051064491272, 0.8614490628242493)
+particle_holder2.TopSurface = Enum.SurfaceType.Smooth
+particle_holder2.size = Vector3.new(3.72102952003479, 0.22955051064491272, 0.8614490628242493)
+particle_holder2.Name = "ParticleHolder2"
+particle_holder2.Parent = black_slash
+
+local a1_3 = Instance.new("Attachment")
+a1_3.Axis = Vector3.new(-2.1721978841523026e-28, 1, 0)
+a1_3.CFrame = CFrame.fromMatrix(Vector3.new(0, 0, -30.819854736328125), Vector3.new(-2.1721978841523026e-28, 1, 0), Vector3.new(-0.9396926760673523, -2.0411985367475133e-28, -0.3420202136039734), Vector3.new(-0.3420202136039734, -7.429356010643291e-29, 0.9396926760673523))
+a1_3.Orientation = Vector3.new(4.256707311268179e-27, -20.000001907348633, 90)
+a1_3.Position = Vector3.new(0, 0, -30.819854736328125)
+a1_3.SecondaryAxis = Vector3.new(-0.9396926760673523, -2.0411985367475133e-28, -0.3420202136039734)
+a1_3.Visible = false
+a1_3.WorldAxis = Vector3.new(-8.997549884538567e-29, 1, -4.794272299566561e-28)
+a1_3.WorldCFrame = CFrame.fromMatrix(Vector3.new(-503.7559814453125, 210.8990020751953, -134.8977508544922), Vector3.new(-8.997549884538567e-29, 1, -4.794272299566561e-28), Vector3.new(0.9396926760673523, 9.031494399808392e-28, 0.3420202136039734), Vector3.new(0.3420202136039734, 7.7121004617019445e-28, -0.9396926760673523))
+a1_3.WorldOrientation = Vector3.new(2.4049378416171005e-26, 160, 90)
+a1_3.WorldPosition = Vector3.new(-503.7559814453125, 210.8990020751953, -134.8977508544922)
+a1_3.WorldSecondaryAxis = Vector3.new(0.9396926760673523, 9.031494399808392e-28, 0.3420202136039734)
+a1_3.Name = "A1"
+a1_3.Parent = particle_holder2
+
+local moon_veil_slash_3 = Instance.new("Motor6D")
+moon_veil_slash_3.C0 = CFrame.fromMatrix(Vector3.new(-4.545335292816162, 0.03819754347205162, -7.114487171173096), Vector3.new(0, 0, 1), Vector3.new(0, 1, 0), Vector3.new(-1, 0, 0))
+moon_veil_slash_3.Part0 = particle_holder2
+moon_veil_slash_3.Part1 = black_slash
+moon_veil_slash_3.Name = "MoonVeil Slash"
+moon_veil_slash_3.Parent = particle_holder2
+
+local particle_holder3 = Instance.new("Part")
+particle_holder3.BottomSurface = Enum.SurfaceType.Smooth
+particle_holder3.CFrame = CFrame.fromMatrix(Vector3.new(-540.3153076171875, 209.06155395507812, -77.69033813476562), Vector3.new(-1, -1.4925868476223636e-27, 0), Vector3.new(-1.4428043993066215e-28, 1, -4.794272299566561e-28), Vector3.new(0, 4.158050009122988e-28, -1))
+particle_holder3.Massless = true
+particle_holder3.Orientation = Vector3.new(0, 180, 0)
+particle_holder3.Rotation = Vector3.new(-180, 0, 180)
+particle_holder3.Size = Vector3.new(3.72102952003479, 0.22955051064491272, 0.8614490628242493)
+particle_holder3.TopSurface = Enum.SurfaceType.Smooth
+particle_holder3.size = Vector3.new(3.72102952003479, 0.22955051064491272, 0.8614490628242493)
+particle_holder3.Name = "ParticleHolder3"
+particle_holder3.Parent = black_slash
+
+local moon_veil_slash_4 = Instance.new("Motor6D")
+moon_veil_slash_4.C0 = CFrame.fromMatrix(Vector3.new(-41.104679107666016, 1.875645637512207, 80.91278076171875), Vector3.new(0, 8.90127312934275e-36, 1), Vector3.new(-1.6291484732995377e-28, 1, 8.901274564272378e-36), Vector3.new(-1, 1.6291484732995377e-28, 0))
+moon_veil_slash_4.Part0 = particle_holder3
+moon_veil_slash_4.Part1 = black_slash
+moon_veil_slash_4.Name = "MoonVeil Slash"
+moon_veil_slash_4.Parent = particle_holder3
+
+local particle_holder4 = Instance.new("Part")
+particle_holder4.BottomSurface = Enum.SurfaceType.Smooth
+particle_holder4.CFrame = CFrame.fromMatrix(Vector3.new(-496.28485107421875, 210.8990020751953, -166.0814971923828), Vector3.new(-1, -1.3296720484406584e-27, -0), Vector3.new(-3.071952872606159e-28, 1, -4.794272299566561e-28), Vector3.new(0, 4.158050009122988e-28, -1))
+particle_holder4.Massless = true
+particle_holder4.Orientation = Vector3.new(0, 180, 0)
+particle_holder4.Rotation = Vector3.new(-180, 0, 180)
+particle_holder4.Size = Vector3.new(3.72102952003479, 0.22955051064491272, 0.8614490628242493)
+particle_holder4.TopSurface = Enum.SurfaceType.Smooth
+particle_holder4.size = Vector3.new(3.72102952003479, 0.22955051064491272, 0.8614490628242493)
+particle_holder4.Name = "ParticleHolder4"
+particle_holder4.Parent = black_slash
+
+local moon_veil_slash_5 = Instance.new("Motor6D")
+moon_veil_slash_5.C0 = CFrame.fromMatrix(Vector3.new(2.9257822036743164, 0.03819754347205162, -7.478381156921387), Vector3.new(0, 0, 1), Vector3.new(0, 1, 0), Vector3.new(-1, 0, 0))
+moon_veil_slash_5.Part0 = particle_holder4
+moon_veil_slash_5.Part1 = black_slash
+moon_veil_slash_5.Name = "MoonVeil Slash"
+moon_veil_slash_5.Parent = particle_holder4
+
+local particle_holder5 = Instance.new("Part")
+particle_holder5.BottomSurface = Enum.SurfaceType.Smooth
+particle_holder5.CFrame = CFrame.fromMatrix(Vector3.new(-492.9407043457031, 210.8990020751953, -165.08091735839844), Vector3.new(-1, -1.3296720484406584e-27, -0), Vector3.new(-3.071952872606159e-28, 1, -4.794272299566561e-28), Vector3.new(0, 4.158050009122988e-28, -1))
+particle_holder5.Massless = true
+particle_holder5.Orientation = Vector3.new(0, 180, 0)
+particle_holder5.Rotation = Vector3.new(-180, 0, 180)
+particle_holder5.Size = Vector3.new(3.72102952003479, 0.22955051064491272, 0.8614490628242493)
+particle_holder5.TopSurface = Enum.SurfaceType.Smooth
+particle_holder5.size = Vector3.new(3.72102952003479, 0.22955051064491272, 0.8614490628242493)
+particle_holder5.Name = "ParticleHolder5"
+particle_holder5.Parent = black_slash
+
+local moon_veil_slash_6 = Instance.new("Motor6D")
+moon_veil_slash_6.C0 = CFrame.fromMatrix(Vector3.new(6.269923686981201, 0.03819754347205162, -6.477802276611328), Vector3.new(0, 0, 1), Vector3.new(0, 1, 0), Vector3.new(-1, 0, 0))
+moon_veil_slash_6.Part0 = particle_holder5
+moon_veil_slash_6.Part1 = black_slash
+moon_veil_slash_6.Name = "MoonVeil Slash"
+moon_veil_slash_6.Parent = particle_holder5
+
+local particle_holder6 = Instance.new("Part")
+particle_holder6.BottomSurface = Enum.SurfaceType.Smooth
+particle_holder6.CFrame = CFrame.fromMatrix(Vector3.new(-489.7980041503906, 210.8990020751953, -162.8970489501953), Vector3.new(-1, -1.3296720484406584e-27, -0), Vector3.new(-3.071952872606159e-28, 1, -4.794272299566561e-28), Vector3.new(0, 4.158050009122988e-28, -1))
+particle_holder6.Massless = true
+particle_holder6.Orientation = Vector3.new(0, 180, 0)
+particle_holder6.Rotation = Vector3.new(-180, 0, 180)
+particle_holder6.Size = Vector3.new(3.8773460388183594, 0.22955051064491272, 0.5785567760467529)
+particle_holder6.TopSurface = Enum.SurfaceType.Smooth
+particle_holder6.size = Vector3.new(3.8773460388183594, 0.22955051064491272, 0.5785567760467529)
+particle_holder6.Name = "ParticleHolder6"
+particle_holder6.Parent = black_slash
+
+local moon_veil_slash_7 = Instance.new("Motor6D")
+moon_veil_slash_7.C0 = CFrame.fromMatrix(Vector3.new(9.412638664245605, 0.03819754347205162, -4.293931007385254), Vector3.new(0, 0, 1), Vector3.new(0, 1, 0), Vector3.new(-1, 0, 0))
+moon_veil_slash_7.Part0 = particle_holder6
+moon_veil_slash_7.Part1 = black_slash
+moon_veil_slash_7.Name = "MoonVeil Slash"
+moon_veil_slash_7.Parent = particle_holder6
+
+local point_light = Instance.new("PointLight")
+point_light.Range = 10
+point_light.Brightness = 5
+point_light.Color = Color3.new(0.976471, 0.0784314, 0.0235294)
+point_light.Shadows = true
+point_light.Parent = black_slash
+
+local script = Instance.new("Script")
+script.Disabled = true
+script.Parent = black_slash
+
+local decal = Instance.new("Decal")
+decal.Color3 = Color3.new(0, 0, 0)
+decal.Texture = "rbxassetid://8977288952"
+decal.Face = Enum.NormalId.Top
+decal.Parent = black_slash
+
+local attachment = Instance.new("Attachment")
+attachment.CFrame = CFrame.fromMatrix(Vector3.new(7.573446273803711, 0, 6.031810283660889), Vector3.new(1, 0, 0), Vector3.new(0, 1, 1.0860989420761513e-28), Vector3.new(0, -1.0860989420761513e-28, 1))
+attachment.Orientation = Vector3.new(6.2228884211211306e-27, 0, 0)
+attachment.Position = Vector3.new(7.573446273803711, 0, 6.031810283660889)
+attachment.SecondaryAxis = Vector3.new(0, 1, 1.0860989420761513e-28)
+attachment.Visible = false
+attachment.WorldAxis = Vector3.new(0, 4.158050009122988e-28, -1)
+attachment.WorldCFrame = CFrame.fromMatrix(Vector3.new(-493.1788330078125, 210.93719482421875, -166.1765594482422), Vector3.new(0, 4.158050009122988e-28, -1), Vector3.new(-1.985853930530008e-28, 1, -4.794272299566561e-28), Vector3.new(1, 1.2210621181218569e-27, 0))
+attachment.WorldOrientation = Vector3.new(-1.1378104451576154e-26, 90, 2.3823870508610726e-26)
+attachment.WorldPosition = Vector3.new(-493.1788330078125, 210.93719482421875, -166.1765594482422)
+attachment.WorldSecondaryAxis = Vector3.new(-1.985853930530008e-28, 1, -4.794272299566561e-28)
+attachment.Parent = black_slash
+
+local particle_emitter = Instance.new("ParticleEmitter")
+particle_emitter.Acceleration = Vector3.new(0, 0, 50)
+particle_emitter.Color = ColorSequence.new({ColorSequenceKeypoint.new(0, Color3.new(1, 0, 0)), ColorSequenceKeypoint.new(1, Color3.new(1, 0, 0))})
+particle_emitter.FlipbookFramerate = NumberRange.new(30, 30)
+particle_emitter.FlipbookLayout = Enum.ParticleFlipbookLayout.Grid4x4
+particle_emitter.Lifetime = NumberRange.new(1, 1)
+particle_emitter.LightEmission = 1
+particle_emitter.LightInfluence = 1
+particle_emitter.Orientation = Enum.ParticleOrientation.VelocityParallel
+particle_emitter.Rate = 10
+particle_emitter.Rotation = NumberRange.new(-360, 360)
+particle_emitter.Size = NumberSequence.new({NumberSequenceKeypoint.new(0, 4.6875), NumberSequenceKeypoint.new(1, 0)})
+particle_emitter.SpreadAngle = Vector2.new(0, 180)
+particle_emitter.Squash = NumberSequence.new({NumberSequenceKeypoint.new(0, 0.5625), NumberSequenceKeypoint.new(0.3912543058395386, 0), NumberSequenceKeypoint.new(1, 0)})
+particle_emitter.Texture = "rbxassetid://11456729998"
+particle_emitter.ZOffset = 2
+particle_emitter.Parent = attachment
+
+local attachment_2 = Instance.new("Attachment")
+attachment_2.CFrame = CFrame.fromMatrix(Vector3.new(7.573446273803711, 0, -4.5841145515441895), Vector3.new(1, 0, 0), Vector3.new(0, 1, 1.6291483529289162e-28), Vector3.new(0, -1.6291483529289162e-28, 1))
+attachment_2.Orientation = Vector3.new(9.334332246495707e-27, 0, 0)
+attachment_2.Position = Vector3.new(7.573446273803711, 0, -4.5841145515441895)
+attachment_2.SecondaryAxis = Vector3.new(0, 1, 1.6291483529289162e-28)
+attachment_2.Visible = false
+attachment_2.WorldAxis = Vector3.new(0, 4.158050009122988e-28, -1)
+attachment_2.WorldCFrame = CFrame.fromMatrix(Vector3.new(-503.79473876953125, 210.93719482421875, -166.1765594482422), Vector3.new(0, 4.158050009122988e-28, -1), Vector3.new(-1.442804519677243e-28, 1, -4.794272299566561e-28), Vector3.new(1, 1.1667572492589533e-27, 0))
+attachment_2.WorldOrientation = Vector3.new(-8.266660626201577e-27, 90, 2.3823870508610726e-26)
+attachment_2.WorldPosition = Vector3.new(-503.79473876953125, 210.93719482421875, -166.1765594482422)
+attachment_2.WorldSecondaryAxis = Vector3.new(-1.442804519677243e-28, 1, -4.794272299566561e-28)
+attachment_2.Parent = black_slash
+
+local particle_emitter_2 = Instance.new("ParticleEmitter")
+particle_emitter_2.Acceleration = Vector3.new(0, 0, 50)
+particle_emitter_2.Color = ColorSequence.new({ColorSequenceKeypoint.new(0, Color3.new(1, 0, 0)), ColorSequenceKeypoint.new(1, Color3.new(1, 0, 0))})
+particle_emitter_2.FlipbookFramerate = NumberRange.new(30, 30)
+particle_emitter_2.FlipbookLayout = Enum.ParticleFlipbookLayout.Grid4x4
+particle_emitter_2.Lifetime = NumberRange.new(1, 1)
+particle_emitter_2.LightEmission = 1
+particle_emitter_2.LightInfluence = 1
+particle_emitter_2.Orientation = Enum.ParticleOrientation.VelocityParallel
+particle_emitter_2.Rate = 10
+particle_emitter_2.Rotation = NumberRange.new(-360, 360)
+particle_emitter_2.Size = NumberSequence.new({NumberSequenceKeypoint.new(0, 4.6875), NumberSequenceKeypoint.new(1, 0)})
+particle_emitter_2.SpreadAngle = Vector2.new(0, 180)
+particle_emitter_2.Squash = NumberSequence.new({NumberSequenceKeypoint.new(0, 0.5625), NumberSequenceKeypoint.new(0.3912543058395386, 0), NumberSequenceKeypoint.new(1, 0)})
+particle_emitter_2.Texture = "rbxassetid://11456729998"
+particle_emitter_2.ZOffset = 2
+particle_emitter_2.Parent = attachment_2
+
+local particle_emitter_3 = Instance.new("ParticleEmitter")
+particle_emitter_3.Acceleration = Vector3.new(0, 0, 50)
+particle_emitter_3.Color = ColorSequence.new({ColorSequenceKeypoint.new(0, Color3.new(0, 0, 0)), ColorSequenceKeypoint.new(1, Color3.new(0, 0, 0))})
+particle_emitter_3.Lifetime = NumberRange.new(2, 2)
+particle_emitter_3.LightEmission = -3
+particle_emitter_3.LightInfluence = 1
+particle_emitter_3.Orientation = Enum.ParticleOrientation.VelocityParallel
+particle_emitter_3.Rotation = NumberRange.new(90, 90)
+particle_emitter_3.Size = NumberSequence.new({NumberSequenceKeypoint.new(0, 0), NumberSequenceKeypoint.new(0.10180995613336563, 1.0624998807907104), NumberSequenceKeypoint.new(1, 0)})
+particle_emitter_3.Speed = NumberRange.new(0.009999999776482582, 0.009999999776482582)
+particle_emitter_3.Squash = NumberSequence.new({NumberSequenceKeypoint.new(0, 4), NumberSequenceKeypoint.new(1, 4)})
+particle_emitter_3.Parent = black_slash
+
+local particle_emitter_4 = Instance.new("ParticleEmitter")
+particle_emitter_4.Acceleration = Vector3.new(0, 0, 50)
+particle_emitter_4.Brightness = 55
+particle_emitter_4.Color = ColorSequence.new({ColorSequenceKeypoint.new(0, Color3.new(1, 0, 0)), ColorSequenceKeypoint.new(1, Color3.new(1, 0, 0))})
+particle_emitter_4.FlipbookFramerate = NumberRange.new(60, 60)
+particle_emitter_4.FlipbookLayout = Enum.ParticleFlipbookLayout.Grid8x8
+particle_emitter_4.FlipbookMode = Enum.ParticleFlipbookMode.OneShot
+particle_emitter_4.Lifetime = NumberRange.new(1, 1)
+particle_emitter_4.LightEmission = 1
+particle_emitter_4.Rate = 15
+particle_emitter_4.RotSpeed = NumberRange.new(300, 300)
+particle_emitter_4.Rotation = NumberRange.new(-360, 360)
+particle_emitter_4.Size = NumberSequence.new({NumberSequenceKeypoint.new(0, 2.437499761581421), NumberSequenceKeypoint.new(1, 0.5)})
+particle_emitter_4.SpreadAngle = Vector2.new(0, 180)
+particle_emitter_4.Texture = "rbxassetid://12250428891"
+particle_emitter_4.ZOffset = 2
+particle_emitter_4.Parent = black_slash
+
+local attachment_3 = Instance.new("Attachment")
+attachment_3.CFrame = CFrame.fromMatrix(Vector3.new(5.731475830078125, 0, -7.79620361328125), Vector3.new(1, 0, 0), Vector3.new(0, 1, 2.1721978841523026e-28), Vector3.new(0, -2.1721978841523026e-28, 1))
+attachment_3.Orientation = Vector3.new(1.2445776842242261e-26, 0, 0)
+attachment_3.Position = Vector3.new(5.731475830078125, 0, -7.79620361328125)
+attachment_3.SecondaryAxis = Vector3.new(0, 1, 2.1721978841523026e-28)
+attachment_3.Visible = false
+attachment_3.WorldAxis = Vector3.new(0, 4.158050009122988e-28, -1)
+attachment_3.WorldCFrame = CFrame.fromMatrix(Vector3.new(-507.0068359375, 210.93719482421875, -164.3345947265625), Vector3.new(0, 4.158050009122988e-28, -1), Vector3.new(-8.997549884538567e-29, 1, -4.794272299566561e-28), Vector3.new(1, 1.1124522840995525e-27, 0))
+attachment_3.WorldOrientation = Vector3.new(-5.155216415641012e-27, 90, 2.3823870508610726e-26)
+attachment_3.WorldPosition = Vector3.new(-507.0068359375, 210.93719482421875, -164.3345947265625)
+attachment_3.WorldSecondaryAxis = Vector3.new(-8.997549884538567e-29, 1, -4.794272299566561e-28)
+attachment_3.Parent = black_slash
+
+local attachment_4 = Instance.new("Attachment")
+attachment_4.CFrame = CFrame.fromMatrix(Vector3.new(5.2589111328125, 0, 8.043182373046875), Vector3.new(1, 0, 0), Vector3.new(0, 1, 4.344396249787091e-28), Vector3.new(0, -4.344396249787091e-28, 1))
+attachment_4.Orientation = Vector3.new(2.4891556765972433e-26, 0, 0)
+attachment_4.Position = Vector3.new(5.2589111328125, 0, 8.043182373046875)
+attachment_4.SecondaryAxis = Vector3.new(0, 1, 4.344396249787091e-28)
+attachment_4.Visible = false
+attachment_4.WorldAxis = Vector3.new(0, 4.158050009122988e-28, -1)
+attachment_4.WorldCFrame = CFrame.fromMatrix(Vector3.new(-491.1674499511719, 210.93719482421875, -163.86203002929688), Vector3.new(0, 4.158050009122988e-28, -1), Vector3.new(1.272443377180932e-28, 1, -4.794272299566561e-28), Vector3.new(1, 8.952324234619493e-28, 0))
+attachment_4.WorldOrientation = Vector3.new(7.290563122903172e-27, 90, 2.3823870508610726e-26)
+attachment_4.WorldPosition = Vector3.new(-491.1674499511719, 210.93719482421875, -163.86203002929688)
+attachment_4.WorldSecondaryAxis = Vector3.new(1.272443377180932e-28, 1, -4.794272299566561e-28)
+attachment_4.Parent = black_slash
+
+local trail = Instance.new("Trail")
+trail.Attachment0 = attachment_4
+trail.Attachment1 = attachment_3
+trail.Brightness = 55
+trail.Color = ColorSequence.new({ColorSequenceKeypoint.new(0, Color3.new(1, 0, 0)), ColorSequenceKeypoint.new(1, Color3.new(1, 0, 0))})
+trail.FaceCamera = true
+trail.LightEmission = 1
+trail.MinLength = 5
+trail.Texture = "rbxassetid://10365550877"
+trail.TextureLength = 0.375
+trail.Parent = black_slash
+
+local circle = Instance.new("Attachment")
+circle.Axis = Vector3.new(1, 2.1721978841523026e-28, 0)
+circle.CFrame = CFrame.fromMatrix(Vector3.new(14.7210693359375, 0, 0), Vector3.new(1, 2.1721978841523026e-28, 0), Vector3.new(-2.1721978841523026e-28, 1, 4.887444938416127e-28), Vector3.new(0, -4.887444938416127e-28, 1))
+circle.Orientation = Vector3.new(2.800299673948712e-26, 0, 1.2445776842242261e-26)
+circle.Position = Vector3.new(14.7210693359375, 0, 0)
+circle.SecondaryAxis = Vector3.new(-2.1721978841523026e-28, 1, 4.887444938416127e-28)
+circle.Visible = false
+circle.WorldAxis = Vector3.new(0, 6.330247652534047e-28, -1)
+circle.WorldCFrame = CFrame.fromMatrix(Vector3.new(-499.21063232421875, 210.93719482421875, -173.32418823242188), Vector3.new(0, 6.330247652534047e-28, -1), Vector3.new(1.8154920658099677e-28, 1, -2.6220744154142587e-28), Vector3.new(1, 8.409275545990458e-28, 0))
+circle.WorldOrientation = Vector3.new(1.0402002326045881e-26, 90, 3.6269648891596943e-26)
+circle.WorldPosition = Vector3.new(-499.21063232421875, 210.93719482421875, -173.32418823242188)
+circle.WorldSecondaryAxis = Vector3.new(1.8154920658099677e-28, 1, -2.6220744154142587e-28)
+circle.Name = "circle"
+circle.Parent = black_slash
+
+local particle_emitter_5 = Instance.new("ParticleEmitter")
+particle_emitter_5.Acceleration = Vector3.new(0, 0, 50)
+particle_emitter_5.Brightness = 500
+particle_emitter_5.Color = ColorSequence.new({ColorSequenceKeypoint.new(0, Color3.new(1, 0, 0)), ColorSequenceKeypoint.new(1, Color3.new(1, 0, 0))})
+particle_emitter_5.Lifetime = NumberRange.new(1.2999999523162842, 1.2999999523162842)
+particle_emitter_5.LightEmission = 1
+particle_emitter_5.Orientation = Enum.ParticleOrientation.VelocityParallel
+particle_emitter_5.Rate = 10
+particle_emitter_5.Rotation = NumberRange.new(90, 90)
+particle_emitter_5.Size = NumberSequence.new({NumberSequenceKeypoint.new(0, 0.5), NumberSequenceKeypoint.new(1, 0.5)})
+particle_emitter_5.Speed = NumberRange.new(0.009999999776482582, 0.009999999776482582)
+particle_emitter_5.Squash = NumberSequence.new({NumberSequenceKeypoint.new(0, 4), NumberSequenceKeypoint.new(1, 4)})
+particle_emitter_5.Parent = black_slash
+
+local particle_emitter_6 = Instance.new("ParticleEmitter")
+particle_emitter_6.Brightness = 55
+particle_emitter_6.Color = ColorSequence.new({ColorSequenceKeypoint.new(0, Color3.new(1, 0, 0)), ColorSequenceKeypoint.new(1, Color3.new(1, 0, 0))})
+particle_emitter_6.FlipbookFramerate = NumberRange.new(60, 60)
+particle_emitter_6.FlipbookLayout = Enum.ParticleFlipbookLayout.Grid4x4
+particle_emitter_6.FlipbookMode = Enum.ParticleFlipbookMode.OneShot
+particle_emitter_6.Lifetime = NumberRange.new(1, 1)
+particle_emitter_6.LightEmission = 1
+particle_emitter_6.Rate = 50
+particle_emitter_6.RotSpeed = NumberRange.new(-100, 100)
+particle_emitter_6.Rotation = NumberRange.new(-180, 180)
+particle_emitter_6.Size = NumberSequence.new({NumberSequenceKeypoint.new(0, 0.9375), NumberSequenceKeypoint.new(1, 1.187499761581421)})
+particle_emitter_6.Speed = NumberRange.new(0, 0)
+particle_emitter_6.SpreadAngle = Vector2.new(0, 180)
+particle_emitter_6.Texture = "rbxassetid://11007791589"
+particle_emitter_6.ZOffset = 2
+particle_emitter_6.Parent = black_slash
+
+--//Modules
+
+local modules = {}
+
+--// Scripts
+
+-- Script
+task.spawn(function()
+	local script = script
+	script.Disabled = true
+
+	script:GetPropertyChangedSignal("Disabled"):Wait()
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	local TS = game:GetService("TweenService")
+	
+	local slashFX = workspace["MoonVeil Slash"]:Clone()
+	slashFX.Parent = workspace.Debris
+	game.Debris:AddItem(slashFX, 2)
+	
+	slashFX.CFrame = workspace.Dummy.HumanoidRootPart.CFrame * CFrame.new(0, 0, -5) * CFrame.Angles(math.rad(0), math.rad(90), math.rad(0))
+	TS:Create(slashFX, TweenInfo.new(0.45, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {CFrame = workspace.Dummy.HumanoidRootPart.CFrame * CFrame.new(0, 0, -30) * CFrame.Angles(0, math.rad(90), 0)}):Play()
+	
+	local linesFX = workspace.FX.SlashLine:Clone()
+	linesFX.Parent = workspace.Dummy.HumanoidRootPart
+	game.Debris:AddItem(linesFX, 2)
+	
+	spawn(function()
+		for i,v in pairs(linesFX:GetChildren()) do
+			if v:IsA("ParticleEmitter") then
+				v:Emit(v:GetAttribute("EmitCount"))
+			end
+		end
+	end)
+	
+	coroutine.wrap(function()
+		for i,v in pairs(slashFX:GetDescendants()) do
+			if v:IsA("Beam") then
+				task.spawn(function()
+					for i = 0.2, 1, 0.03 do
+						v.Transparency = NumberSequence.new(i, 1)
+						if i >= 0.95 then
+							v:Destroy()
+						end
+						task.wait()
+					end
+				end)
+			end
+		end
+	end)()
+	
+	slashFX["Lens blur"].Line:Emit(2)
+	
+	TS:Create(slashFX.PointLight,TweenInfo.new(0.8),{Brightness = 1}):Play()
+	TS:Create(slashFX.Decal,TweenInfo.new(.6, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Transparency = 1}):Play()
+	
+	task.delay(0.4, function()
+		for i,v in pairs(slashFX:GetDescendants()) do
+			if v:IsA("ParticleEmitter") then
+				v.Enabled = false
+			end
+		end
+	end)
+	
+	
+	
+end)
